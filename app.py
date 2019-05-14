@@ -6,9 +6,9 @@ import plotly.graph_objs as go
 ########### Set up the chart
 beers=['Spring', 'Summer', 'Fall', 'Winter']
 ibu_values=[35, 90, 85, 12]
-abv_values=[5.4, 7.1, 9.2, 4.3]
-color1='red'
-color2='yellow'
+abv_values=[34, 25, 44, 4.3]
+color1='green'
+color2='blue'
 
 bitterness = go.Bar(
     x=beers,
